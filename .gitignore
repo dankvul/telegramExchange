@@ -1,0 +1,11 @@
+app.db
+migrations/
+.idea/
+venv/
+*.pyc
+__pycache__/
+instance/
+.env
+.flaskenv
+dep.make
+app/app.db
