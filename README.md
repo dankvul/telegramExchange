@@ -1,6 +1,6 @@
 # tg_exchange
 This flask-app use webhook, so, you should firstly deploy source on remote server to fully run it.
-#Build: 
+# Build: 
 1) `git clone https://github.com/dankvul/tg_exchange`
 2) Setup virtualenv using 
 `sudo pip3 install virtualenv`
