@@ -1,5 +1,3 @@
-# tg_exchange
-This flask-app use webhook, so, you should firstly deploy source on remote server to fully run it.
 # Build: 
 1) `git clone https://github.com/dankvul/tg_exchange`
 2) Setup virtualenv using 
@@ -38,3 +36,6 @@ class Config(object):
 ````
 Run
 	`(venv) tg_exchange/$ gunicorn wsgi:app`
+
+# TelegramExchange bot
+This flask-app use webhook, so, you should firstly deploy source on remote server to fully run it. This app is ready to 
