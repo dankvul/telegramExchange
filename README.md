@@ -28,11 +28,11 @@ class Config(object):
 ```
 7) Init db and configure flask app:
 ````
-	(venv) tg_exchange/$ export FLASK_APP=wsgi.py
-	(venv) tg_exchange/$ flask db init
-	(venv) tg_exchange/$ flask db migrate
-	(venv) tg_exchange/$ flask db upgrade
-	(venv) tg_exchange/$ flask create_tables
+    (venv) tg_exchange/$ export FLASK_APP=wsgi.py
+    (venv) tg_exchange/$ flask db init
+    (venv) tg_exchange/$ flask db migrate
+    (venv) tg_exchange/$ flask db upgrade
+    (venv) tg_exchange/$ flask create_tables
 ````
 Run
 	`(venv) tg_exchange/$ gunicorn wsgi:app`
